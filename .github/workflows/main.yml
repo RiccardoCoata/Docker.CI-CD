@@ -28,4 +28,3 @@ jobs:
           file: /home/riccardo/docker/Lamp1/php.dockerfile
           push: true
           tags: ${{ secrets.DOCKER_HUB_USERNAME }}/simplewhale:latest
-
